@@ -1,0 +1,42 @@
+.contenedor {
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  background: gray;
+  height: 80px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 3px solid rgba(223, 215, 215, 0.89);
+   
+}
+
+.fila {
+  display: flex;
+  
+}
+
+.izquierda, .derecha {
+  background: gray;
+  width: 150px;
+  height: 400px;
+  padding: 10px;
+  border: 3px solid rgba(223, 215, 215, 0.89);
+
+}
+
+.izquierda {
+  margin-right: 20px;
+}
+
+.derecha {
+  margin-left: 20px;
+}
+.centro {
+  background: gray;
+  flex: 1; 
+  height: 400px;
+  padding: 10px;
+  border: 3px solid rgba(223, 215, 215, 0.89);
+}

@@ -1,0 +1,56 @@
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.top {
+  background: gray;
+  height: 80px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 3px solid #c4c6cf;
+   
+}
+
+.fila {
+  display: flex;
+  
+}
+
+.izquierda, .derecha {
+  background: gray;
+  width: 150px;
+  height: 400px;
+  padding: 10px;
+  border: 3px solid #c4c6cf;
+}
+
+.izquierda {
+  margin-right: 20px;
+}
+
+.derecha {
+  margin-left: 20px;
+}
+.centro {
+  background: gray;
+  flex: 1; 
+  height: 400px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 10px;
+  border: 3px solid #c4c6cf;
+
+}
+
+.pie {
+ 
+  background: gray;
+  height: 80px;
+  margin-top: 10px;
+  padding: 10px;
+  border: 3px solid #c4c6cf;
+   
+  
+}
